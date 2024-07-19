@@ -1,0 +1,232 @@
+@media(max-width:1110px) {
+    .container {
+        max-width: 699px;
+    }
+
+    header {
+        height: 540px;
+    }
+
+    .logo {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 32px;
+    }
+
+    a.apply {
+        font-size: 16px;
+        letter-spacing: -0.16px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 60px;
+        max-width: 564px;
+    }
+
+    h1 span::before {
+        width: 182px;
+    }
+
+    .h1 .first {
+        transform: translateX(-65%);
+    }
+
+    .h1 .second {
+        transform: translate(50%, -50%);
+    }
+
+
+    a.learn {
+        width: 133px;
+        height: 55px;
+        font-size: 16px;
+        letter-spacing: -0.16px;
+    }
+
+    img.phone {
+        width: 514px;
+        height: 296px;
+    }
+
+    .points {
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .points article {
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 32px;
+        width: 573px;
+        height: 108px;
+    }
+
+    .points article .number {
+        width: 48px;
+        height: 46px;
+    }
+
+    .points article div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .points article h3 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: start;
+    }
+
+    .points article p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 493px;
+        text-align: start;
+    }
+
+    .louis {
+        width: 689px;
+        height: 526px;
+    }
+
+    .louis img {
+        width: 281px;
+        height: 281px;
+    }
+
+    .louis article {
+        max-width: 514px;
+        height: 375px;
+        padding: 48px 56px 56px;
+        bottom: 0;
+    }
+
+    .louis h2 {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 24px;
+    }
+
+    .louis p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+
+    .louis a {
+        width: 172px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .louis img.spiral {
+        transform: translateY(50%);
+    }
+}
+
+@media(max-width:768px) {
+    .container{
+        max-width: 353px;
+    }
+    .logo {
+        padding-bottom: 64px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+        width: 343px;
+    }
+
+    h1 span::before {
+        width: 152px;
+    }
+
+    .h1 .first {
+        display: none;
+    }
+
+    .h1 .second {
+        display: none;
+    }
+
+    img.phone {
+        width: 320px;
+        height: 184px;
+    }
+    .points article {
+        flex-direction: column;
+        gap: 0;
+        width: 343px;
+        min-height: 234px;
+    }
+
+    .points article div {
+        width: 343px;
+    }
+
+    .points article .number {
+        margin-bottom: 24px;
+    }
+
+    .points article h3 {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .points article p {
+        width: 343px;
+        text-align: center;
+    }
+
+    section.louis {
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .louis article {
+        padding: 32px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 343px;
+        height: 375px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .louis h2 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 16px;
+    }
+
+    .louis p {
+        width: 281px;
+    }
+
+    .louis a {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .louis img.spiral {
+        display: none;
+    }
+
+    .louis img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .louis article,
+    .louis img {
+        /* transform: translateX(-25%); */
+    }
+}
